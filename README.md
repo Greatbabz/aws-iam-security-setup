@@ -1,4 +1,4 @@
-#  AWS IAM Security Setup
+# 🔐 AWS IAM Security Setup
 
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws&logoColor=white)
 ![Security](https://img.shields.io/badge/Focus-Security-blue)
@@ -39,7 +39,7 @@ IAM Admin User (Basestack-admin)
 
 ---
 
-## ⚙️ Implementation Steps
+##  Implementation Steps
 
 ### 1. Secure Root Account
 - Strong password configured  
@@ -54,32 +54,32 @@ IAM Admin User (Basestack-admin)
 
 ### 4. Enable MFA
 - Configured MFA using the authenticator app  
-- Verified using two consecutive authentication codes  
+- Verified using authentication codes  
 
 ### 5. IAM Login Configuration
 - Used IAM sign-in URL instead of root login  
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
-### IAM User Created (Administrators Setup)
-![IAM User Created](screenshots/iam-user-created.png)
-
----
-
-### Multi-Factor Authentication (MFA) Enabled
-![MFA Setup](screenshots/mfa-setup.png)
+### 1. Console sign-in as IAM user
+![Console sign-in as IAM user](screenshots/iam-login.png)
 
 ---
 
-### IAM Console Login (IAM User Active)
-![IAM Login](screenshots/iam-login.png)
+### 2. IAM dashboard showing your Administrators group
+![IAM dashboard showing Administrators group](screenshots/iam-admin-group.png)
 
 ---
 
-### IAM Security Recommendations (Resolved Status)
-![Security Recommendations](screenshots/iam-security-recommendations.png)
+### 3. IAM Security recommendations showing green-resolved items
+![IAM Security recommendations showing green-resolved items](screenshots/iam-security-recommendations.png)
+
+---
+
+### 4. IAM user listed with MFA assigned
+![IAM user listed with MFA assigned](screenshots/mfa-setup.png)
 
 ---
 
