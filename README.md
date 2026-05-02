@@ -1,4 +1,4 @@
-# 🔐 AWS IAM Security Setup
+#  AWS IAM Security Setup
 
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws&logoColor=white)
 ![Security](https://img.shields.io/badge/Focus-Security-blue)
@@ -29,15 +29,16 @@ This project was completed as part of AWS hands-on training, focusing on identit
 ---
 
 ##  Architecture
-Root Account (setup only)
-│
-▼
-IAM Admin User (Basestack-admin)
-│
-├── Password Authentication
-└── MFA (Authenticator App)
 
----
+```
+Root Account (setup only)
+        │
+        ▼
+IAM Admin User (Basestack-admin)
+        │
+        ├── Password Authentication
+        └── MFA (Authenticator App)
+```
 
 ##  Implementation Steps
 
@@ -46,14 +47,14 @@ IAM Admin User (Basestack-admin)
 - Root account restricted to setup only  
 
 ### 2. Create IAM Admin User
-- Created user: `Basestack-admin.`  
+- Created user: `Basestack-admin`  
 - Enabled console access  
 
 ### 3. Assign Permissions
 - Attached **AdministratorAccess** policy (lab environment only)  
 
 ### 4. Enable MFA
-- Configured MFA using the authenticator app  
+- Configured MFA using authenticator app  
 - Verified using authentication codes  
 
 ### 5. IAM Login Configuration
