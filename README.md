@@ -62,27 +62,25 @@ IAM Admin User (Basestack-admin)
 
 ---
 
-##  Screenshots
+## 📸 Screenshots
 
 ### 1. Console sign-in as IAM user
-![Console sign-in as IAM user](screenshots/iam-login.png)
+![Console sign-in as IAM user](Console%20sign-in%20as%20IAM%20user.png)
 
 ---
 
 ### 2. IAM dashboard showing your Administrators group
-![IAM dashboard showing Administrators group](screenshots/iam-admin-group.png)
+![IAM dashboard showing your Administrators group](IAM%20dashboard%20showing%20your%20Administrators%20group.png)
 
 ---
 
 ### 3. IAM Security recommendations showing green-resolved items
-![IAM Security recommendations showing green-resolved items](screenshots/iam-security-recommendations.png)
+![IAM Security recommendations showing green-resolved items](IAM%20Security%20recommendations%20showing%20green-resolved%20items.png)
 
 ---
 
 ### 4. IAM user listed with MFA assigned
-![IAM user listed with MFA assigned](screenshots/mfa-setup.png)
-
----
+![IAM user listed with MFA assigned](IAM%20user%20listed%20with%20MFA%20assigned.png)
 
 ##  Key Security Concepts
 
@@ -94,9 +92,6 @@ IAM Admin User (Basestack-admin)
 
 - **Root Account Protection**  
   The root account should only be used for initial setup and emergency access.
-
-- **:contentReference[oaicite:0]{index=0}**  
-  Central AWS service for managing users, roles, and permissions securely.
 
 ---
 
